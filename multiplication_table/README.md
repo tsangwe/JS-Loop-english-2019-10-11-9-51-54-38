@@ -9,3 +9,10 @@ Create new index.js file, write program output 9*9 times table. The output is as
 ……
 9*1=9 9*2=18 9*3=27 …… 9*9=81
 ```
+for (var i = 1; i < 10; i++) {
+    var str = "";
+    for (var j = 1; j < i+1; j++) {
+        str += (i + "*" + j + "=" + (i*j) + " ");
+    }
+    console.log(str);
+}
